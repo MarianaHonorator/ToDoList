@@ -83,7 +83,6 @@ export class ToDoListComponent implements DoCheck {
       localStorage.setItem('List', JSON.stringify(this.list));
     }
   }
-
   }
 
 
