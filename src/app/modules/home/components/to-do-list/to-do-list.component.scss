@@ -1,0 +1,88 @@
+@import "../../../../../dist/scss/variables.scss";
+.centered-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-top: 150px;
+
+  input {
+    background-color: $main-color;
+    color: $text-color;
+    border-style: none;
+    width: 300px;
+    height: 40px;
+    position: fixed;
+    bottom: 20px;
+    text-align: center;
+    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.1);
+  }
+
+  input::placeholder {
+    color: $text-color;
+    text-align: center;
+  }
+
+  input:focus {
+    outline: none;
+    color: $text-color;
+  }
+}
+
+.inicialCheckbox {
+  background-color: white;
+  color: $checkbox-color;
+  border-style: none;
+  width: 100%;
+  height: 40px;
+  position: fixed;
+  top: 77px;
+  display: flex;
+  align-items: center;
+  left: 0px;
+  font-size: 17px;
+  font-weight: bold;
+  box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.1);
+
+  input {
+    width: 25px;
+    height: 16px;
+  }
+}
+
+.list-container {
+  color: $checkbox-color;
+  padding: 10px;
+  margin: 10px;
+  position: absolute;
+  margin-top: -34px;
+
+  .text-input {
+    border-style: none;
+    font-size: 17px;
+  }
+
+  .text-input:focus {
+    outline: none;
+  }
+}
+
+.lixeira-icon {
+  background-image: url(../../../../../assets/img/lixo.png);
+  width: 100px;
+  height: 22px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  left: 7px;
+  position: relative;
+}
+
+.ischecked {
+  text-decoration: line-through;
+}
+
+@media screen and (max-width: 390px) {
+  .list-container {
+    font-size: 24px;
+  }
+}

@@ -1,1 +1,11 @@
-/* You can add global styles to this file, and also import other style files */
+@import './dist/scss/variables.scss';
+@import url("https://fonts.googleapis.com/css2?family=Fjalla+One&family=Open+Sans:wght@600&family=Press+Start+2P&family=Roboto:wght@300&display=swap");
+
+* {
+  font-family: roboto;
+  color: $checkbox-color;
+}
+
+h1{
+  color: $text-color;
+}

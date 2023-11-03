@@ -1,0 +1,15 @@
+<div class="list-container">
+  <div class="inicialCheckbox">
+    <input type="checkbox" [(ngModel)]="isSelectAllChecked" (change)="toggleSelectAll()">My to-do-list
+    <div class="lixeira-icon" (click)="cleanList()"></div>
+  </div>
+  <p *ngFor="let item of list; let i = index">
+    <input class="check-input" type="checkbox" [(ngModel)]="checkboxStates[i]">
+    <input class="text-input" type="text" [ngClass]="{'ischecked': checkboxStates[i] === true}" [value]="item">
+  </p>
+</div>
+
+<div class="centered-container">
+  <input [(ngModel)]="tarefa" placeholder="Digite sua tarefa aqui" (keydown)="handleKeyPress($event)">
+</div>
+
