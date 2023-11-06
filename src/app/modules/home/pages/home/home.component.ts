@@ -9,14 +9,9 @@ export class HomeComponent {
 
   public title: string = 'My to-do list';
   public getLength: number = 0;
-  public list:Array<String> = [];
 
   constructor() {}
 
-
-  public getList(event:string[]){
-    this.list = event;
-  }
 
   public receberListaLength(event: number) {
     this.getLength = event;
