@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # AppToDo
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.1.
@@ -25,3 +26,6 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+=======
+# ToDoList
+>>>>>>> 2626d51195d22fd9e8bd8f9752b9cb4a61a7bc01
