@@ -73,3 +73,8 @@
   text-decoration: line-through;
 }
 
+@media screen and (max-width: 390px) {
+  .list-container {
+    font-size: 15px;
+  }
+}
